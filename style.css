@@ -1,0 +1,234 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Libre+Franklin:wght@700&display=swap'); */
+
+
+/* .zazibar {
+  background-color: #f1f1f1;
+  padding: 0;
+  width: 65%;
+  margin-bottom: 10%;
+  display: inline-block;
+  padding: 0px 20px;
+
+} */
+
+.footeryeah {
+  font-size: 12px;
+    font-weight: bold;
+    color: rgb(11, 26, 34);
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    margin: 2em 0 0 0;
+}
+
+.container {
+  width: 100%;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+}
+
+.afficher_in_line > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.afficher_in_line {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.hibou {
+border: green;
+border: 2px solid firebrick;
+}
+
+.img-circle {
+
+  border-radius: 50%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card-white {
+  background: white;
+  padding: 30px;
+  border: 1px solid lightgrey;
+}
+
+body {
+  background: linear-gradient(to bottom, #00a6ff 50%, #fff 50%);
+  font-family: 'Fredericka the Great', cursive;
+  font-family: 'Libre Franklin', sans-serif;
+  line-height: 32px;
+  font-weight: 200;
+}
+
+.titre { justify-content: center;
+  align-items: center;
+  display: block;
+  position: relative;
+  padding: 15px;
+  max-width: 80%;
+
+}
+
+p {
+  color: rgb(0, 0, 0);
+}
+
+.julmage {
+   height: 350px;
+   width: 250px;
+   border-radius: 30%;
+   margin: 10% ;
+   padding: 0 ;
+   align-items: initial;
+   box-shadow: 0 10px 30px rgba(5,10,3,.1);
+   margin-left: 0%;
+
+}
+
+.titre1 { background-color: red;
+background-position: 10ex;}
+
+
+
+h1 {font-size: 180%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color : #bc3f4a;
+}
+
+h2 {
+  color: hsla(227, 100%, 50%, 0.858);
+  font-weight: bold;
+}
+
+.scroller {
+  background-color: #c9c9c9;
+  width: 8px;
+}
+
+.headerlisting {
+  height: 76vh;
+  background: url(https://www.doretdeplatineshop.com/content_images/16_9_JUL_de_dos.jpg);
+  background-position: center top !important;
+  background-size: cover !important;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: relative;
+
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.bouton0 {
+   text-decoration: none;
+    width: 10em;
+    height: 5ex;
+    background-color: gold;
+    border: 2px solid firebrick;
+    border-radius: 10px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    padding: 10px;
+    margin: 10%;
+    vertical-align: middle;
+    line-height: 1.42857143;
+    margin: 0 auto;
+    text-align: justify;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+}
+
+.bouton1 {
+  text-decoration: none;
+   width: 10em;
+   height: 5ex;
+   background-color: gold;
+   border: 2px solid firebrick;
+   border-radius: 10px;
+   font-weight: bold;
+   color: black;
+   cursor: pointer;
+   padding: 10px;
+   margin: 10%;
+   vertical-align: middle;
+   line-height: 1.42857143;
+   margin: 0 auto;
+   text-align: justify;
+   position: absolute;
+   top: 0px;
+
+}
+
+.bouton2 {
+  text-decoration: none;
+   width: 10em;
+   height: 5ex;
+   background-color: gold;
+   border: 2px solid firebrick;
+   border-radius: 10px;
+   font-weight: bold;
+   color: black;
+   cursor: pointer;
+   padding: 10px;
+   margin: 10%;
+   vertical-align: middle;
+   line-height: 1.42857143;
+   margin: 0 auto;
+   text-align: justify;
+   position: absolute;
+   top: 0px;
+   right: 0px;
+
+}
+
+
+
+
+.bouton:hover {
+  background-color: bisque;
+}
+.logoFooter { opacity: 1;
+  display: block;
+  width= 206pt;
+  height= 488pt;
+
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  grid-gap: 20px;
+}
+
+.card {
+  display: grid;
+  grid-template-rows: max-content 200px 1fr;
+}
+
+.card img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
